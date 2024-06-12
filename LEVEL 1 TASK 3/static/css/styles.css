@@ -1,0 +1,101 @@
+body {
+    background-image: url('path/to/your/image.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    width: 100%;
+}
+
+.converter {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header p {
+    margin: 0;
+    font-weight: 700;
+}
+
+.header .icons span {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 20px 0;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #555;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, select, button {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background-color: #6a0dad;
+    color: white;
+    padding: 12px 20px; /* Larger padding for buttons */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4b077c;
+}
+
+#result {
+    font-weight: bold; /* Make result text bold */
+    color: #6a0dad; /* Highlight result color */
+}
+input[type="number"],
+select {
+    width: 100%; /* Make input fields and select dropdowns full width */
+    padding: 12px; /* Increase padding for better appearance */
+    margin: 10px 0; /* Increase margin for better spacing */
+    border: 1px solid #ccc; /* Add border for input fields and select dropdowns */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
