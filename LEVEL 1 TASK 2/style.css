@@ -1,0 +1,244 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo h1 {
+    font-size: 1.5em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f0a500;
+}
+
+header .add-listing a {
+    background-color: #f0a500;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header .add-listing a:hover {
+    background-color: #d18c00;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('images/hero-image.jpg') no-repeat center center/cover;
+    color: #333;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.25em;
+    margin-bottom: 30px;
+}
+
+.hero-content form {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content input {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #f0a500;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero-content button:hover {
+    background-color: #d18c00;
+}
+
+/* Categories Section Styles */
+.categories {
+    padding: 50px 0;
+    text-align: center;
+    background: url('images/categories-background.jpg') no-repeat center center/cover;
+}
+
+.categories h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+}
+
+.category {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.category img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.category h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* About Me Section Styles */
+.about {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about-content img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.about-details {
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-details h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-details p {
+    font-size: 1.25em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer .footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+footer .footer-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+footer .footer-section p, footer .footer-section ul {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+footer .footer-section ul {
+    list-style: none;
+}
+
+footer .footer-section ul li {
+    margin-bottom: 10px;
+}
+
+footer .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .footer-section ul li a:hover {
+    color: #f0a500;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-size: 0.9em;
+}
